@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 641px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.Main{
+    position: absolute;
+    display: flex;
+    height: 481px;
+    width: 940px;
+}
+
+.Left{
+    position: absolute;
+    display: block;
+}
+
+.Right{
+    position: relative;
+    left: 690px;
+    display: block;
+}
+
+.Top{
+    display: flex;
+}
+
+.Bottom{
+    display: flex;
+}
+
+.DanielClifford{
+    width: 450px;
+    height: 215px;
+    float: left;
+    margin: 0px;
+    border-radius: 07px;
+    background: url(../imgs/bg-pattern-quotation.svg) no-repeat right 75px top -18px;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.JonathanWalters{
+    margin-left: 25px;
+    height: 215px;
+    width: 215px;
+    border-radius: 07px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.JeanetteHarmon{
+    margin-top: 25px;
+    height: 215px;
+    width: 215px;
+    border-radius: 07px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.PatrickAbrams{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 450px;
+    height: 215px;
+    float: left;
+    border-radius: 07px;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.KiraWhittle{
+    border-radius: 07px;
+    float: right;
+    margin-left: 25px;
+    display: block;
+    height: 455px;
+    width:  225px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Perfil{
+    display:flex;
+    font-size: 08px;
+    margin: 20px 0px 25px 25px;
+}
+
+.Perfil img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.PerfilInfo{
+    margin-left: 10px;
+    display: block;
+}
+
+.PerfilInfo h2{
+    color:  hsl(210, 46%, 95%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.PerfilInfo p{
+    color:  hsla(210, 46%, 95%, 0.5);
+    font-size: 10px;
+}
+
+.DanielClifford img{
+    border: 2px solid hsl(263, 100%, 70%);
+}
+
+.PatrickAbrams img{
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+.JeanetteHarmon h2,.KiraWhittle h2{
+    color: hsl(217, 19%, 35%);
+}
+
+.JeanetteHarmon .Perfil p,.KiraWhittle .Perfil p{
+    color: hsla(217, 19%, 35%, 0.5);
+}
+
+.Quote{
+    color:  hsl(210, 46%, 95%);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: -15px 30px 25px 25px;
+}
+
+.Review{
+    color:  hsla(210, 46%, 95%, 0.3);
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    margin: -10px 30px 25px 25px;
+}
+
+.WomemQuote{
+    margin: -15px 40px 25px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: hsl(219, 29%, 14%);
+}
+
+.WomemReview{
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    margin: -10px 30px 25px 25px;
+    color: rgba(25, 33, 46, 0.5);
+}
+
+footer{
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    font-weight: 700;
+    margin-top: 500px;
+    left: 125px;
+}
+
+footer a{
+    color: hsl(263, 55%, 52%);
+}
+
+.Attribution{
+    color:hsl(219, 29%, 14%);
+}
